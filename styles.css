@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Cor de fundo preto */
+    color: #f4f4f4; /* Cor de texto clara */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b0082; /* Cor roxo escuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 60px; /* Tamanho do logo */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.featured-news, .latest-news, .results {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+/* Artigos */
+article {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.latest-news ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.latest-news button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.latest-news button:hover {
+    background-color: #37106d;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
